@@ -1,0 +1,122 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css" integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Chi siamo.html">Chi siamo</a></li>
+            <li><a href="Progetti.html">Progetti</a></li>
+        </ul>
+        
+<div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+
+
+    </div>
+
+
+<div class="hero1 hero--small">
+    <div class="hero__content reveal">
+        <p class="intro-text1">La nostra storia</p>
+        <h1 class="big-text">Interact Club Liceo G. Rummo</h1>
+    </div>
+</div>
+
+
+<div class="content reveal">
+    <h3 class="bold-normal-text1">DALLA SUA FONDAZIONE AD OGGI</h3>
+    <p class="normal-text1">Costituito il 21 dicembre 2016 e certificato il 27 dicembre, l’Interact Club Benevento Liceo G. Rummo, n. 215800, patrocinato dal Rotary Club di Benevento, è il primo ed unico club interactiano della provincia sannita, fondato con 40 soci. Fin da subito si è dato da fare con la prima attività volta alla comprensione internazionale, anticipandola addirittura rispetto alla cerimonia di consegna della Carta costitutiva. Il club fa parte del <a href="https://www.distrettorotary2101.org/">distretto 2101</a> nato dalla divisione del distretto 2100 il primo luglio 2021.</p>
+    <p class="normal-text1">Durante i suoi anni di servizio, il club ha organizzato incontri con le autorità e personalià di tutta italia, distinguendosi per le sue attività di Service. Nonostante le varie difficoltà causate dalla pandemia, il Club è riuscito a rialzarsi anche grazie all'aiuto dei memebri del Rotary Club di Benevento, i quali sono stati sempre accanto al Club e lo hanno supportato. Fondamentale è stato l'aiuto del professore Domenico Zerella Venaglia, delegato Interact del Rotary Club Benevento, che ancora oggi lavora a stretto contatto con il presidente e il Club.</p>
+    <p class="normal-text1"> Nel corso degli anni vari studenti hanno avuto il privilegio e il compito di ricoprire il ruolo di presidente. 
+        <br/> Vittorio GIANVITO 2016-2019;
+        <br/> Rita STANCO 2019-2021;
+        <br/> Roberta TOMACIELLO 2021-2022;
+        <br/> Giulio TARALLO 2022-2023;
+        <br/> Giusy PALMIERI 2023-2024;
+        <br/> Lucia CAPUANO 2024-2025;
+    </p>
+    <p class="normal-text1 reveal">Dopo 8 anni dalla sua fondazione il Club conta quasi 100 soci, riuniti tutti con lo scopo di aiutare il prossimo.</p>
+
+</div>
+
+
+
+
+<footer class="footer">
+
+    <p class="footer__text1 bold-normal-text"> 
+        Interact Club Benevento <br/>Liceo G. Rummo
+    </p>
+    <p class="footer__text1 new-normal-text">Puoi Trovarci Anche Qui!</p>
+<div class="footer__social">
+<ul class="footer__social">
+    <li><a href="https://www.instagram.com/interactliceorummo/profilecard/?igsh=dmQwMGw4bGtvMjl2        "><img src="Instagram.png" alt=""></a></li>
+    <li><a href="https://www.facebook.com/profile.php?id=100079244300075&mibextid=wwXIfr"><img src="Facebook.png" alt=""></a></li>
+</ul>
+</div>
+<p class="footer__text2">interactrummo@gmail.com</p>
+<p class="footer__legal">Made by Lucia Capuano © 2025 Interact Club.</p>
+<p class="footer__legal1">All Rights Reserved.</p>
+</footer>
+
+
+
+
+
+
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js" integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+    $( document ).ready(function() {
+      
+/* Open Panel */
+$( ".hamburger" ).on('click', function() {
+  $(".menu").toggleClass("menu--open");
+});
+
+    });
+
+
+ScrollReveal().reveal('.reveal', { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 } );
+
+ScrollReveal().reveal('.zoom', { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile:false} );
+
+</script>
+
+
+</body>
+</html>
