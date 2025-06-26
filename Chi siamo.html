@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/meyer-reset/2.0/reset.min.css" integrity="sha512-NmLkDIU1C/C88wi324HBc+S2kLhi08PN5GDeUVVVC/BVt/9Izdsc9SVeVfA1UZbY3sHUlDSyRXhCzHfr6hmPPw==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <link rel="stylesheet" href="style.css">
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.min.css" integrity="sha512-fJcFDOQo2+/Ke365m0NMCZt5uGYEWSxth3wg2i0dXu7A1jQfz9T4hdzz6nkzwmJdOdkcS8jmy2lWGaRXl+nFMQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <script src="https://unpkg.com/scrollreveal@4.0.0/dist/scrollreveal.min.js"></script>
+
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&display=swap" rel="stylesheet">
+
+
+
+</head>
+<body>
+    
+    <div class="header">
+        <div class="logo">
+            <img src="logo.png" alt="">
+        </div>
+        <ul class="menu">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="Chi siamo.html">Chi siamo</a></li>
+            <li><a href="Progetti.html">Progetti</a></li>
+        </ul>
+<div class="hamburger">
+    <span></span>
+    <span></span>
+    <span></span>
+</div>
+
+
+
+    </div>
+
+
+<div class="hero2 hero--small1">
+    <div class="hero__content reveal">
+        <h1 class="big-text">Molto più di un semplice Club</h1>
+    </div>
+</div>
+
+
+
+<div class="poster mt-3">
+<div class="poster__img reveal">
+<img src="Foto 1 Chi Siamo Page.jpg" alt="">
+</div>
+    <div class="poster__content reveal">
+        <h3 class="gra-text">Interact Club Liceo G. Rummo</h3>
+        <p>L'Interact Club Liceo G. Rummo conta attualmente circa 100 membri, alunni dell'Istituto G. Rummo. Il Club ha come sede ufficale l'Istituto che periodicamente mette a disposizione la struttura per consentire lo svolgimento delle varie attività. Tra i 100 membri, 7 fanno parte del direttivo che si occupa di organizzare e guidare il Club durante i progetti. Attualmente è un Club scolastico, per cui i membri sono tutti studenti dell'Istituto, tuttavia il Club conta di espandersi e diventare provinciale nei prossimi mesi, per consentire a tutti i ragazzi di entrarvi.</p>
+    </div>
+</div>
+
+
+
+</div>
+
+
+
+
+
+<footer class="footer1">
+
+    <p class="footer__text1 bold-normal-text"> 
+        Interact Club Benevento <br/> Liceo G. Rummo
+    </p>
+    <p class="footer__text1 new-normal-text">Puoi Trovarci Anche Qui!</p>
+<div class="footer__social">
+<ul class="footer__social">
+    <li><a href="https://www.instagram.com/interactliceorummo/profilecard/?igsh=dmQwMGw4bGtvMjl2        "><img src="Instagram.png" alt=""></a></li>
+    <li><a href="https://www.facebook.com/profile.php?id=100079244300075&mibextid=wwXIfr"><img src="Facebook.png" alt=""></a></li>
+</ul>
+</div>
+<p class="footer__text2">interactrummo@gmail.com</p>
+<p class="footer__legal">Made by Lucia Capuano © 2025 Interact Club.</p>
+<p class="footer__legal1">All Rights Reserved.</p>
+</footer>
+
+
+
+
+
+
+
+
+<!-- Jquery -->
+<script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.0/jquery.min.js"></script>
+
+<script src="https://cdnjs.cloudflare.com/ajax/libs/flickity/3.0.0/flickity.pkgd.min.js" integrity="sha512-achKCfKcYJg0u0J7UDJZbtrffUwtTLQMFSn28bDJ1Xl9DWkl/6VDT3LMfVTo09V51hmnjrrOTbtg4rEgg0QArA==" crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+
+
+<script>
+    $( document ).ready(function() {
+      
+/* Open Panel */
+$( ".hamburger" ).on('click', function() {
+  $(".menu").toggleClass("menu--open");
+});
+
+    });
+
+
+    ScrollReveal().reveal('.reveal', { distance: '100px', duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 600 } );
+
+ScrollReveal().reveal('.zoom', { duration: 1500, easing: 'cubic-bezier(.215, .61, .355, 1)', interval: 200, scale: 0.65, mobile:false} );
+</script>
+
+
+</body>
+</html>
