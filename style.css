@@ -104,7 +104,7 @@ right: 30px;
   height: 100vh;
   display: flex; width: 100%; align-items: center;
   background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.7)),
-  url(Foto\ \ La\ nostra\ storia\ Page.webp) no-repeat center center;
+  url(Foto\ La\ nostra\ storia\ Page.webp) no-repeat center center;
   background-size: cover;
 }
 
