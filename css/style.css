@@ -95,7 +95,7 @@ right: 30px;
     height: 100vh;
     display: flex; width: 100%; align-items: center;
     background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.7)),
-    url("Home\ p.0.jpg") no-repeat center center;
+    url("img/Home\ p.0.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -104,7 +104,7 @@ right: 30px;
   height: 100vh;
   display: flex; width: 100%; align-items: center;
   background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.7)),
-  url(Story\ p.0.webp) no-repeat center center;
+  url("img/Story\ p.0.webp") no-repeat center center;
   background-size: cover;
 }
 
@@ -112,7 +112,7 @@ right: 30px;
   height: 100vh;
   display: flex; width: 100%; align-items: center;
   background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.7)),
-  url(Us\ p.1.jpg) no-repeat center center;
+  url("img/Us\ p.1.jpg") no-repeat center center;
   background-size: cover;
 }
 
@@ -120,7 +120,7 @@ right: 30px;
   height: 100vh;
   display: flex; width: 100%; align-items: center;
   background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.7)),
-  url(Project\ p.0.webp) no-repeat center center;
+  url("img/Project\ p.0.webp") no-repeat center center;
   background-size: cover;
 }
 
@@ -162,7 +162,7 @@ padding: 50px;
   display: flex;
   padding: 100px 0;
   background: linear-gradient(0deg, rgba(0,0,0,.7), rgba(0,0,0,0.7)),
-  url("Home\ p.2.jpg") no-repeat center center;
+  url("img/Home\ p.2.jpg") no-repeat center center;
 }
 
 .bg-cover__text{width: 50%; padding: 30px;}
@@ -227,7 +227,7 @@ text-align: center;
 .carousel-cell1__foto{
   height: 100%; 
   width: 100%;
-  background: url(Dot\ \ Chi\ Siamo\ Page.jpg);
+  background: url("img/Dot\ \ Chi\ Siamo\ Page.jpg");
   border-radius: 100%;
 line-height: 350px;
 text-align: center;
@@ -257,7 +257,7 @@ text-align: center;
 .carousel-cell2__foto{
   height: 100%; 
   width: 100%;
-  background:url(Dot\ \ Chi\ Siamo\ Page.jpg);
+  background:url("img/Dot\ \ Chi\ Siamo\ Page.jpg");
   border-radius: 100%;
 line-height: 350px;
 text-align: center;
@@ -287,7 +287,7 @@ text-align: center;
 .carousel-cell3__foto{
   height: 100%; 
   width: 100%;
-  background:url(Dot\ \ Chi\ Siamo\ Page.jpg);
+  background:url("img/Dot\ \ Chi\ Siamo\ Page.jpg");
   border-radius: 100%;
 line-height: 350px;
 text-align: center;
@@ -317,7 +317,7 @@ text-align: center;
 .carousel-cell4__foto{
   height: 100%; 
   width: 100%;
-  background:url(Dot\ \ Chi\ Siamo\ Page.jpg);
+  background:url("img/Dot\ \ Chi\ Siamo\ Page.jpg");
   border-radius: 100%;
 line-height: 350px;
 text-align: center;
@@ -347,7 +347,7 @@ text-align: center;
 .carousel-cell5__foto{
   height: 100%; 
   width: 100%;
-  background:url(Dot\ \ Chi\ Siamo\ Page.jpg);
+  background:url("img/Dot\ \ Chi\ Siamo\ Page.jpg");
   border-radius: 100%;
 line-height: 350px;
 text-align: center;
@@ -377,7 +377,7 @@ text-align: center;
 .carousel-cell6__foto{
   height: 100%; 
   width: 100%;
-  background:url(Dot\ \ Chi\ Siamo\ Page.jpg);
+  background:url("img/Dot\ \ Chi\ Siamo\ Page.jpg");
   border-radius: 100%;
 line-height: 350px;
 text-align: center;
@@ -406,7 +406,7 @@ text-align: center;
 .carousel-cell7__foto{
   height: 100%; 
   width: 100%;
-  background:url(Dot\ \ Chi\ Siamo\ Page.jpg);
+  background:url("img/Dot\ \ Chi\ Siamo\ Page.jpg");
   border-radius: 100%;
 line-height: 350px;
 text-align: center;
@@ -436,7 +436,7 @@ text-align: center;
 .carousel-cell8__foto{
   height: 100%; 
   width: 100%;
-  background:url(Dot\ \ Chi\ Siamo\ Page.jpg);
+  background:url("img/Dot\ \ Chi\ Siamo\ Page.jpg");
   border-radius: 100%;
 line-height: 350px;
 text-align: center;
@@ -459,7 +459,7 @@ margin-bottom: 40px;
 }
 
 .dot1{height: 250px;width: 250px;
-background:url(Dot\ 1\ Home\ Page.jpg); border-radius: 100%;
+background:url("img/Dot\ 1\ Home\ Page.jpg"); border-radius: 100%;
  line-height: 250px;
 text-align: center;
 display: inline-block;
@@ -477,7 +477,7 @@ margin-bottom: 40px;
   }
 
   .dot3{height: 250px;width: 250px;
-    background:url(Dot\ 3\ Home\ Page.jpg); border-radius: 100%;
+    background:url("img/Dot\ 3\ Home\ Page.jpg"); border-radius: 100%;
      line-height: 250px;
     text-align: center;
     display: inline-block;
@@ -486,7 +486,7 @@ margin-bottom: 40px;
     }
 
     .dot4{height: 250px;width: 250px;
-      background:url(Dot\ 4\ Home\ Page.jpg); border-radius: 100%;
+      background:url("img/Dot\ 4\ Home\ Page.jpg"); border-radius: 100%;
        line-height: 250px;
       text-align: center;
       display: inline-block;
