@@ -20,3 +20,7 @@ ScrollReveal().reveal('.zoom', {
     scale: 0.65,
     mobile: false
 });
+
+$(document).ready(function(){
+    $("#footer-container").load("components/footer.html");
+});
