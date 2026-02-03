@@ -95,7 +95,7 @@ right: 30px;
     height: 100vh;
     display: flex; width: 100%; align-items: center;
     background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.7)),
-    url("Home\ Page\ First.jpg") no-repeat center center;
+    url("Home\ p.0.jpg") no-repeat center center;
     background-size: cover;
 }
 
@@ -104,7 +104,7 @@ right: 30px;
   height: 100vh;
   display: flex; width: 100%; align-items: center;
   background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.7)),
-  url(Foto\ La\ nostra\ storia\ Page.webp) no-repeat center center;
+  url(Us\ p.0.webp) no-repeat center center;
   background-size: cover;
 }
 
@@ -112,7 +112,7 @@ right: 30px;
   height: 100vh;
   display: flex; width: 100%; align-items: center;
   background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.7)),
-  url(Foto\ 0\ Chi\ Siamo.jpg) no-repeat center center;
+  url(Us\ p.2.jpg) no-repeat center center;
   background-size: cover;
 }
 
@@ -120,7 +120,7 @@ right: 30px;
   height: 100vh;
   display: flex; width: 100%; align-items: center;
   background: linear-gradient(0deg, rgba(0,0,0,.2), rgba(0,0,0,0.7)),
-  url(Foto\ Progetti\ New.webp) no-repeat center center;
+  url(Project\ p.0.webp) no-repeat center center;
   background-size: cover;
 }
 
@@ -162,7 +162,7 @@ padding: 50px;
   display: flex;
   padding: 100px 0;
   background: linear-gradient(0deg, rgba(0,0,0,.7), rgba(0,0,0,0.7)),
-  url("Foto\ 2\ Home\ Page.jpg") no-repeat center center;
+  url("Home\ p.2.jpg") no-repeat center center;
 }
 
 .bg-cover__text{width: 50%; padding: 30px;}
