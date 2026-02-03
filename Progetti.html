@@ -12,8 +12,6 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="stylesheet" href="css/lib/reset.min.css"/>
     <link rel="stylesheet" href="css/lib/flickity.min.css"/>
-
-    <script src="js/lib/scrollreveal.min.js"></script>
 </head>
 <body>
     <div class="header">
@@ -34,7 +32,7 @@
 
     </div>
 
-    <div class="hero3 hero--small1">
+    <div class="hero-base hero-small" style="background-image: url('img/Project p.0.webp');">
         <div class="hero__content reveal">
             <h1 class="big-text">I Nostri Progetti</h1>
             <h1 class="gra-text2">Dal 2016 al 2024</h1>
@@ -43,7 +41,7 @@
 
     <div class="poster mt-3">
         <div class="poster__img reveal">
-            <img src="img/Project p.1.webp" alt="">
+            <img src="img/Project p.1.webp" alt="" loading="lazy">
         </div>
         <div class="poster__content reveal">
             <h3 class="gra-text">In Memoria</h3>
@@ -66,13 +64,13 @@
                 sinergia con il Rotaract Club Benevento [...]</p>
         </div>
         <div class="poster__img reveal">
-            <img src="img/Project p.2.webp" alt="">
+            <img src="img/Project p.2.webp" alt="" loading="lazy">
         </div>
     </div>
 
     <div class="poster mt-3">
         <div class="poster__img reveal">
-            <img src="img/Project p.3.jpg" alt="">
+            <img src="img/Project p.3.jpg" alt="" loading="lazy">
         </div>
         <div class="poster__content reveal">
             <h3 class="gra-text">Unicef</h3>
@@ -95,13 +93,13 @@
                 “Fatebenefratelli” di Benevento, allestita con l’aiuto dei ragazzi dell’Interact Club.</p>
         </div>
         <div class="poster__img reveal">
-            <img src="img/Project p.4.jpg" alt="">
+            <img src="img/Project p.4.jpg" alt="" loading="lazy">
         </div>
     </div>
 
     <div class="poster mt-3">
         <div class="poster__img reveal">
-            <img src="img/Project p.5.jpg" alt="">
+            <img src="img/Project p.5.jpg" alt="" loading="lazy">
         </div>
         <div class="poster__content reveal">
             <h3 class="gra-text">Domenica Ecologica</h3>
@@ -120,13 +118,13 @@
                 terriorio.</p>
         </div>
         <div class="poster__img reveal">
-            <img src="img/Project p.6.jpg" alt="">
+            <img src="img/Project p.6.jpg" alt="" loading="lazy">
         </div>
     </div>
 
     <div class="poster mt-3">
         <div class="poster__img reveal">
-            <img src="img/Project p.7.jpg" alt="">
+            <img src="img/Project p.7.jpg" alt="" loading="lazy">
         </div>
         <div class="poster__content reveal">
             <h3 class="gra-text">Raccolta Fondi</h3>
@@ -143,13 +141,13 @@
                 volontari della Caritas servendo alla mensa e regalando un sorriso a tutti i presenti. </p>
         </div>
         <div class="poster__img reveal">
-            <img src="img/Project p.8.jpg" alt="">
+            <img src="img/Project p.8.jpg" alt="" loading="lazy">
         </div>
     </div>
 
     <div class="poster mt-3">
         <div class="poster__img reveal">
-            <img src="img/Project p.9.jpg" alt="">
+            <img src="img/Project p.9.jpg" alt="" loading="lazy">
         </div>
         <div class="poster__content reveal">
             <h3 class="gra-text">Interact Per <br /> i Sorrisi</h3>
@@ -160,24 +158,36 @@
         </div>
     </div>
 
-    <footer class="footer1">
-        <p class="footer__text1 bold-normal-text">
-            Interact Club Benevento<br /> Liceo G. Rummo
-        </p>
-        <p class="footer__text1 new-normal-text">Puoi Trovarci Anche Qui!</p>
-        <div class="footer__social">
-            <ul class="footer__social">
-                <li><a href="https://www.instagram.com/interactliceorummo/profilecard/?igsh=dmQwMGw4bGtvMjl2        "><img
-                            src="img/Instagram Logo.webp" alt=""></a></li>
-                <li><a href="https://www.facebook.com/profile.php?id=100079244300075&mibextid=wwXIfr"><img
-                            src="img/Facebook Logo.webp" alt=""></a></li>
-            </ul>
+    <footer class="footer">
+        <div class="footer__info">
+            <p class="footer__title bold-normal-text">
+            Interact Club Benevento <br />Liceo G. Rummo
+            </p>
+            <p class="footer__subtitle new-normal-text">Puoi Trovarci Anche Qui!</p>
         </div>
-        <p class="footer__text2">interactrummo@gmail.com</p>
-        <p class="footer__legal">Made by Lucia Capuano © 2026 Interact Club.</p>
-        <p class="footer__legal1">All Rights Reserved.</p>
+
+        <ul class="footer__social">
+            <li>
+            <a href="https://www.instagram.com/interactliceorummo/profilecard/">
+                <img src="img/Instagram Logo.webp" alt="Instagram">
+            </a>
+            </li>
+            <li>
+            <a href="https://www.facebook.com/profile.php?id=100079244300075&mibextid=wwXIfr">
+                <img src="img/Facebook Logo.webp" alt="Facebook">
+            </a>
+            </li>
+        </ul>
+
+        <p class="footer__contact">interactrummo@gmail.com</p>
+
+        <div class="footer__legal">
+            <p>Made by Lucia Capuano © 2026 Interact Club.</p>
+            <p>All Rights Reserved.</p>
+        </div>
     </footer>
 
+    <script src="js/lib/scrollreveal.min.js"></script>
     <script src="js/lib/jquery.min.js"></script>
     <script src="js/lib/flickity.pkgd.min.js"></script>
     <script src="js/ui.js"></script>
